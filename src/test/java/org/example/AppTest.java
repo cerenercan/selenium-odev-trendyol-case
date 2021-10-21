@@ -25,7 +25,7 @@ public class AppTest {
 
     @Before
     public void setup() {
-        System.setProperty("webdriver.chrome.driver", "src/test/resources/driver/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "src/test/resources/driver/chromedriver2.exe");
         ChromeOptions options = new ChromeOptions();
         options.addArguments("start-maximized");
 
